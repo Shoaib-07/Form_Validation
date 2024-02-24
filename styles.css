@@ -1,0 +1,89 @@
+/* Body styles */
+body {
+    background-color: #aed2fc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full height of the viewport */
+}
+
+/* Center the form container */
+.container {
+    max-width: 500px;
+    width: 90%;
+    /* Take up 90% of the viewport width */
+    background-color: #fff;
+    /* White background color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Center the h2 element */
+.container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Add spacing between form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style form inputs */
+.form-control {
+    border: 1px solid #ced4da;
+    /* Gray border */
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    /* Full width */
+    box-sizing: border-box;
+    /* Include padding and border in the width */
+}
+
+/* Style submit button */
+.btn-primary {
+    background-color: #007bff;
+    /* Blue button background color */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    /* White button text color */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+/* Style error messages */
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        /* Take up 90% of the viewport width */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        /* Take up 100% of the viewport width */
+    }
+}
